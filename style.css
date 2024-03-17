@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* *{
+margin: 0;
+padding: 0;
+} */
+body{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    color: brown;
+    margin: 20px 0px;
+}
+h2{
+    font-size: 30px;
+    color: rgba(142, 53, 35, 0.772);
+    margin: 10px 0px;
+}
+#board{
+    width: 400px;
+    height: 400px;
+    background-color: #2f93fd80;
+    margin: 50px auto;
+    border: 6px solid #CE5226;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tile{
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x2{
+    background-color: rgb(255, 191, 0);
+    color: white;
+}
+.x4{
+    background-color:rgba(224, 172, 17, 0.816) ;
+    color: white;
+}
+.x8{
+    background-color: rgba(212, 165, 24, 0.665);
+    color: white;
+}
+.x16{
+    background-color: rgba(208, 167, 46, 0.705);
+    color: white;
+}
+.x32{
+    background-color: rgba(177, 143, 40, 0.581);
+    color: white;
+}
+.x64{
+    background-color: rgba(122, 106, 60, 0.824);
+    color: white;
+}
+.x128{
+    background-color: rgba(151, 136, 92, 0.781);
+    color: white;
+}
+.x256{
+    background-color: rgba(151, 137, 96, 0.436);
+    color: white;
+}
+.x512{
+    background-color: rgba(120, 113, 89, 0.697);
+    color: white;
+}
+.x1024{
+    background-color: rgba(202, 188, 147, 0.849);
+    color: white;
+}
+.x2048{
+    background-color: rgba(203, 185, 133, 0.779);
+    color: white;
+}
+.x4096{
+    background-color: rgb(167, 150, 98);
+    color: white;
+}
+.x8192{
+    background-color: rgba(232, 220, 118, 0.814);
+    color: white;
+}
